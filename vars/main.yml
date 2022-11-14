@@ -1,0 +1,13 @@
+---
+# vars file for task
+task_os: '{{ ansible_system | lower }}'
+task_arch: '{{ task_arch_map[ansible_architecture] }}'
+task_platform: '{{ task_os }}_{{ task_arch }}'
+task_url: '{{ task_mirror }}/v{{ task_ver }}/task_{{ task_platform }}.tar.gz'
+task_name: task_{{ task_ver }}_{{ task_platform }}
+task_tgz: '{{ task_name }}.tar.gz'
+task_tmp_tgz: /tmp/{{ task_tgz }}
+task_checksum: '{{ task_checksums[task_ver][task_platform] }}'
+task_install_dir: '{{ task_parent_install_dir }}/{{ task_name }}'
+task_exe: '{{ task_install_dir }}/task'
+task_link: '{{ task_parent_install_dir }}/bin/task'
