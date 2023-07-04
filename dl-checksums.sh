@@ -39,4 +39,4 @@ dl_ver() {
     dl $app $ver $lchecksums linux arm64
 }
 
-dl_ver task ${1:-3.26.0}
+dl_ver task ${1:-3.27.1}
