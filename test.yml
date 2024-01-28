@@ -3,7 +3,7 @@
   hosts: all
   tasks:
     - name: Installing andrewrothstein.task
-      ansible.buitlin.include_role:
+      ansible.builtin.include_role:
         name: '{{ playbook_dir }}'
     - name: Executing 'task --version'
       ansible.builtin.command: /usr/local/bin/task --version
