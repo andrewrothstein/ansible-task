@@ -1,10 +1,14 @@
 ---
-- hosts: all
-  roles:
-    - role: '{{ playbook_dir }}'
+- name: Testing andrewrothstein.task
+  hosts: all
   tasks:
-    - command: /usr/local/bin/task --version
+    - name: Installing andrewrothstein.task
+      ansible.buitlin.include_role:
+        name: '{{ playbook_dir }}'
+    - name: Executing 'task --version'
+      ansible.builtin.command: /usr/local/bin/task --version
+      changed_when: false
       register: task_test_output
-    - name: task --version
-      debug:
+    - name: Output of 'task --version'
+      ansible.builtin.debug:
         msg: '{{ task_test_output.stdout }}'
