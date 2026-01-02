@@ -1,6 +1,6 @@
 ---
 # defaults file for task
-task_ver: 3.46.2
+task_ver: 3.46.4
 
 task_arch_map:
   aarch64: arm64
@@ -514,3 +514,27 @@ task_checksums:
     linux_amd64: sha256:cd857162ca8267f4872e5a71a81a6f7f18da92f3bd2d32855610fead8209cb72
     # https://github.com/go-task/task/releases/download/v3.46.2/task_linux_arm64.tar.gz
     linux_arm64: sha256:58d3d7e59e1f46d9422397b9b75cb6d6825c34d5b35ee18a805ff4216e6ebbc0
+  # https://github.com/go-task/task/releases/download/v3.46.3/task_checksums.txt
+  '3.46.3':
+    # https://github.com/go-task/task/releases/download/v3.46.3/task_darwin_amd64.tar.gz
+    darwin_amd64: sha256:9eed0990b84788d314d5f3c98f0215624be8421eabf8acaa064405d30050fb62
+    # https://github.com/go-task/task/releases/download/v3.46.3/task_darwin_arm64.tar.gz
+    darwin_arm64: sha256:35bc981a7dc4c83f11abcd33846bcd5ad80e873b67c9c9f794055fdb90aed71a
+    # https://github.com/go-task/task/releases/download/v3.46.3/task_linux_386.tar.gz
+    linux_386: sha256:3088f541fd59d0f2ad35b30bdc2b934ab996f80de5fc0c33c579f567a64c6035
+    # https://github.com/go-task/task/releases/download/v3.46.3/task_linux_amd64.tar.gz
+    linux_amd64: sha256:6f4f2038d2da967d5a921a78f120e1e64d6338865459ffeaf82fb6888cba4b73
+    # https://github.com/go-task/task/releases/download/v3.46.3/task_linux_arm64.tar.gz
+    linux_arm64: sha256:b7c9ce48967bd7065ccd2d85f657500c092e21e7f664300a807461828f7d0878
+  # https://github.com/go-task/task/releases/download/v3.46.4/task_checksums.txt
+  '3.46.4':
+    # https://github.com/go-task/task/releases/download/v3.46.4/task_darwin_amd64.tar.gz
+    darwin_amd64: sha256:6e3d1bf5fcc03e50b2c02c92335923b715d3f61e27fef5b3048b59ed97a18721
+    # https://github.com/go-task/task/releases/download/v3.46.4/task_darwin_arm64.tar.gz
+    darwin_arm64: sha256:ffe2b4a3c54467172ab15734d0b451b1fc0472d0d48bb3538870b433c700bc96
+    # https://github.com/go-task/task/releases/download/v3.46.4/task_linux_386.tar.gz
+    linux_386: sha256:b0e93c6290ed91af882516117114999ff0b21ac08d8c4e7e6f63ed6a12ef95b5
+    # https://github.com/go-task/task/releases/download/v3.46.4/task_linux_amd64.tar.gz
+    linux_amd64: sha256:4b0098862292de03d568c851b207bce5fdb8a59cb533d6ed4132386151926c46
+    # https://github.com/go-task/task/releases/download/v3.46.4/task_linux_arm64.tar.gz
+    linux_arm64: sha256:9079bbdfd439f2168ee380d9167fd77f13f9fab7afb516205ac3a578f16bcb59
